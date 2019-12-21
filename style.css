@@ -1,0 +1,1088 @@
+@font-face {
+  font-family: '10479';
+  src: url('fonts/10479.eot');
+  src: url('fonts/10479.eot?#iefix') format('embedded-opentype'),
+       url('fonts/10479.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'M.Video-Light';
+  src: url('fonts/M.Video-Light.svg#M.Video-Light') format('svg'),
+       url('fonts/M.Video-Light.ttf') format('truetype'),
+       url('fonts/M.Video-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '9367';
+  src: url('fonts/9367.eot');
+  src: url('fonts/9367.eot?#iefix') format('embedded-opentype'),
+       url('fonts/9367.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'M.Video-Bold';
+  src: url('fonts/M.Video-Bold.svg#M.Video-Bold') format('svg'),
+       url('fonts/M.Video-Bold.ttf') format('truetype'),
+       url('fonts/M.Video-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('fonts/MyriadPro-Regular.eot');
+  src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+       url('fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('fonts/MyriadPro-Regular.woff') format('woff'),
+       url('fonts/MyriadPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  /*min-width: 1520px;*/
+  /*margin: auto;*/
+}
+body {
+   font-family: 'M.Video-Light';
+    margin: 0;
+}
+h1, h2 {
+  text-align: center;
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+.container {
+  /*width: 1170px;*/
+   text-align: center;
+   margin-right: 0;
+   margin-left: 0;
+  padding: 0;
+}
+button {
+    font-family: 'M.Video-Bold';
+}
+button.btn {
+  color: #ffffff;
+  background: #ce4da2;
+  padding: 26px 80px;
+  font-size: 2.3rem;
+  
+  /*position: ;*/
+  /*letter-spacing: 0.3em;*/
+  line-height: 1;
+  /*display: inline-block;*/
+  text-align: center;
+  transition: all 0.5s ease;
+  border: none;
+}
+button.btn:hover {
+  background: #ff26b5;
+  color: #ffffff;
+}
+button.austrian-alps {
+  margin-left: 9%;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+.header {
+
+}
+.logo {
+  margin-left: 0%;
+ padding: 25px 25px;
+ /*width: 100%;*/
+ /* width: 1520px;
+  height: 6839px;
+  z-index: 315;*/
+}
+.img_logo {
+  margin-right: 0%;
+}
+.adres_phone {
+  /*padding-right: 30%;*/
+
+}
+.phone {
+padding-top: 29px;
+margin-left: 0%;
+}
+.adres {
+  padding-top: 28px;
+   /* padding-left: 0%;*/
+/*  display: inline-block;
+  height: 40px;*/
+/*margin-left: 5%;*/
+
+}
+.block_span {
+  /*display: flex;*/
+    display: block;
+    /*height: 47px;*/
+    text-align: left;
+}
+.block_span_text {
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #137893;
+ margin-top:-14%;
+ padding-left: 17%;
+}
+.block_span_text_phone {
+  line-height: 0.6;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #137893;
+ margin-top:-19%;
+ padding-left: 17.2%;
+}
+.block_span p {
+ /* padding-left: 4px;*/
+}
+.navigation-fixed-top {
+  margin: 0;
+  width: 100%;
+}
+.navigation_a .navigation__link {
+  /*width: 827px;*/
+}
+.navigation_a {
+    /*background: #245f90;*/
+/*   background-position: center;
+   background-size: cover;
+   background-size: contain;*/
+    font-size: 1.8rem;
+    font-family: 'M.Video-Bold';
+    padding: 10px 10px;
+    padding-left: 8%;  /*=350px*/
+    width: 100%;
+    margin: auto;
+}
+ul {
+position: 0;
+ margin: 0;
+ list-style: none;
+}
+.navigation_a ul {
+    list-style: none;
+  display: flex;
+}
+ul li:first-child {
+  padding-left: 0px;
+}
+.navigation__link {
+  color: #ffffff;
+    transition: 0.5s ease-out; 
+     padding-left: 49px;
+    
+}
+.navigation__link:hover, .navigation__link:focus {
+    color: #ff26b5;
+    text-decoration: none;
+}
+.austrian_alps {
+  /*position: relatiыve;*/
+  height: 567px;
+  background: url(img/background/backgalpi.png) 100% no-repeat;
+  background-size: cover;
+  color: #ffffff;
+margin: auto;
+}
+.austrian_alps.navigation_a {
+
+}
+.austrian_alps .row h1 {
+  font-size: 7.0rem;
+  padding-top: 1.9%;
+  font-family: 'M.Video-Bold';
+  padding-left: 9.2%;
+  letter-spacing: 0.7rem;
+}
+ .austrian_alps h2 {
+  font-size: 3.6rem;
+  font-family: 'M.Video-Bold';
+  padding-top: 2%;
+  padding-left: 9%;
+}
+.row-calendar {
+  padding-top: 3.5%;
+  text-align: center;
+  padding-left: 26.5%;
+  padding-bottom: 5.6%;
+}
+.row-calendar span {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.calendar {
+
+}
+.maunts {
+
+}
+/***************************    section map    ********************/
+.row {
+margin: 0;
+position: 0;
+}
+.map {
+  height: 428px;
+   background: url(img/background/backg_map.png) 100% no-repeat;
+   background-position: left;
+   margin-left: 8%;
+}
+.statistics {
+   margin-left: 55%;
+   margin-top: 4.7%;
+}
+table {
+  width: 70%;
+  font-size: 3rem;
+  display: flex;
+ 
+}
+td:first-child {
+  color: #137893;
+  float: right;
+  padding-right: 25%;
+}
+td {
+  line-height: 1.1em;
+/*position: left;*/
+  margin-left: 0;
+  font-family: 'M.Video-Bold';
+}
+td strong {
+  font-family: 'M.Video-Bold';
+  font-size: 1.9rem;
+  text-align: left;
+}
+.box-circle {
+  display: flex;
+  margin-top: 2.5%;
+  margin-left: -2%;
+}
+.circle1{
+   background: url(img/alips1.png) 100% no-repeat;
+    position: relative;
+}
+.circle2 {
+     background: url(img/alips2.png) 100% no-repeat;
+     margin-left: 10%;
+  position: relative;
+}
+.inside{
+  font-size: 1.8rem;
+  padding-top: 23px;
+  margin-right: 12px;
+  
+}
+.box-circle p {
+  width: 130px;
+  font-size: 1.6rem;
+  text-align: left;
+  padding-left: 2%;
+  font-weight: 800;
+}
+
+/********************** ///////////  section map   ************************/
+
+/*********************  section included-tour  ****************************/
+.included-tour {
+  height: 430px;
+  background: #f9f8f4;
+  margin-top: -2%;
+}
+.included-tour h2 {
+  padding: 4% 0% 3.3% 5%;
+  font-size: 4.5rem;
+  color: #e56abb;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+   font-family: 'M.Video-Bold';
+}
+.cart {
+  /*display: flex;*/
+  flex-direction: column;
+}
+.cart_bgr {
+  display: flex;
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  background: #137893;
+  margin-left: 54%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+   transition: all 0.5s ease;
+  /*position: relative;*/
+}
+.cart_bgr:hover {
+  background: #84b5c2;
+} 
+.cart_border {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  border: 2px solid #f1efe6;
+}
+.cart_bgr img {
+  margin-top: 27%;
+  /*position: absolute;*/
+}
+.cart_title {
+  margin-left: 50%;
+}
+.cart_in {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #137893;
+}
+/**************  ///////////////////  section included-tour  ***************/
+/*********************  section main_program_tour  ************************/
+.main_program_tour{
+  height: 2824px;               /**/
+  background: url(img/background/backg_main.png) 100% no-repeat;
+    background-size: cover;
+}
+.main_program_tour h2 {
+  margin: 0;
+  padding: 4% 3%;
+  letter-spacing: 1rem;
+  font-size: 3.6rem;
+  color: #e56abb;
+    font-family: 'M.Video-Bold';
+}
+.circle_day {
+  width: 90px;
+  height: 90px;
+  border-radius: 50% ;
+  background: #137893;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 2%;
+  font-size: 1.8rem;
+  margin-bottom: 39px;
+  margin-left: 51%;
+}
+.program_day {
+  display: flex;
+  height: 26.3rem;
+  width: 55%;
+  margin-bottom: 39px;
+  border-right: 2px solid #137893;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+ 
+}
+.title {
+  padding-bottom: 60px;
+  margin-left: 18%;
+   font-size: 1.6rem;
+   font-weight: 400;
+}
+.text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  width: 80%;
+  padding-left: 18%;
+  align-items: flex-start;
+
+}
+.img_day1 img, .img_day2 img, .img_day3 img, .img_day4 img, .img_day5 img, .img_day6 img {
+    /*display: block;*/
+  border-radius: 12px 12px;
+  height: 16.5em;
+  width: 31em;
+  margin-right: -14%;
+}
+/*.img_day1 {
+  background: url() 100% no-repeat;
+}*/
+/*.img_day1 img:hover {
+   background: url(img/program_tour/program1_1.png) 100% no-repeat;
+}
+.img_day2 {
+  background: url(img/program_tour/program2.png) 100% no-repeat;
+}
+.img_day2:hover {
+   background: url(img/program_tour/program2_1.png) 100% no-repeat;
+}
+.img_day3 {
+  background: url(img/program_tour/program3.png) 100% no-repeat;
+}
+.img_day3:hover {
+   background: url(img/program_tour/program5.png) 100% no-repeat;
+}
+.img_day4 {
+  background: url(img/program_tour/program4.png) 100% no-repeat;
+}
+.img_day4:hover {
+   background: url(img/program_tour/program6.png) 100% no-repeat;
+}
+.img_day5 {
+  background: url(img/program_tour/program5.png) 100% no-repeat;
+}
+.img_day5:hover {
+   background: url(img/program_tour/program2_1.png) 100% no-repeat;
+}
+.img_day6 {
+  background: url(img/program_tour/program6.png) 100% no-repeat;
+}
+.img_day6:hover {
+   background: url(img/program_tour/program5.png) 100% no-repeat;
+}*/
+
+
+button.main_program {
+  border-radius: 9px;
+}
+/************ ///////////////  section main_program_tour  ******************/
+
+/*********************  section drive_tour  ************************/
+.drive_tour{
+  margin-top: 0%;
+  height: 378px;               /**/
+  background: url(img/background/backg_with_us.png) 100% no-repeat;
+}
+.drive_tour h2{
+  font-family: 'M.Video-Bold';
+  padding-top: 4%;
+  padding-bottom: 3%;
+  margin-left: -6%;
+  font-size: 3.6rem;
+  color: #e56abb;
+  margin: 0;
+  letter-spacing: 0.5rem;
+}
+.guide {
+  display: block;
+  padding-top: 1%;
+  text-align: left;
+}
+.profile img{
+  width: 16.2rem;
+  height: 16.2rem;
+  border-radius: 50%;
+   margin-left: 15%;
+}
+.guide_text h3 {
+   font-family: 'MyriadPro-Regular';
+/*s*/
+}
+.guide_text {
+     margin-left: 7%;
+}
+
+.social_block {
+  display: flex;
+}
+.drive_tour_social:last-child {
+  margin-left: 4%;
+}
+.photographer {
+   text-align: left;
+  /*margin-bottom: 10%;*/
+    /*margin-left: 5%;*/
+}
+
+/**************  ///////////////////  section drive_tour  ************** 
+/*********************  section  reviews  ************************/
+.reviews {
+  height: 802px;  
+  margin-top: -4%;
+}
+.reviews h2 {
+    font-family: 'M.Video-Bold';
+  padding-top: 9%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  font-size: 3.6rem;
+  color: #e56abb;
+  margin: 0;
+  letter-spacing: 0.5rem;
+}
+/*********************  section  reviews_slider  ************************/
+
+/**************  ///////////////////  section   reviews_slider  **************/
+   .slider {
+      position: relative;
+      overflow: hidden;
+      margin-left: 13%;
+    }
+
+    .slider__wrapper {
+      display: flex;
+      transition: transform 0.6s ease;
+      font-size: 1.6rem;
+      font-family: 'M.Video-Light';
+      font-weight: 400;
+    }
+    .slider__item {
+      flex: 0 0 50%;
+      max-width: 50%;
+
+    }
+    .slider__profile_name {
+      display: flex;
+      margin-left: 8%;
+      margin-top: 4%;
+    }
+    .slider_profile img {
+      display: block;
+      width: 15.7rem;
+      height: 15.7rem;
+      border-radius: 50%;
+    }
+    .profile_name {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-left: 5%;
+      text-align: left;
+       font-family: 'M.Video-Bold';
+    }
+    .slider_text{
+      width: 81%;
+      font-size: 1.6rem;
+      text-align: left;
+      margin-left: 8%;
+      margin-top: 8%;
+      font-family: 'M.Video-Light';
+      font-weight: 600;
+
+    }
+    .slider_text span {
+      font-size: 1.8rem;
+     padding-left: 90%;
+    }
+    .slider__control {
+      position: absolute;
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      color: #fff;
+      text-align: center;
+      opacity: 0.5;
+      height: 50px;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, .5);
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: 0;
+      opacity: .9;
+    }
+
+    .slider__control_left {
+      margin-left: 0.8%;
+
+    }
+
+    .slider__control_right {
+           margin-left: 91.5%;
+    }
+
+    .slider__control::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    .slider__control_left::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider__control_right::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .slider__item>.slider_inside{
+      height: 44.5rem;
+      width: 44.3rem;
+      border: 11px solid #f1efe6;
+      /*line-height: 250px;*/
+      text-align: center;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+/**************  ///////////////////  section  reviews  **************/
+.reviews_slider {
+  color: #e56abb;
+  border:  3px solid #e56abb;
+  background: none;
+  border-radius: 9px;
+  padding: 1.5% 7% 1.5% 4.3%;
+  margin: 5% 0% 15% 35%;
+  line-height: 1;
+  letter-spacing: 1.5;
+  font-size: 1.7rem;
+   font-family: 'M.Video-Light';
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s ease;
+  font-weight: 800;
+}
+.glyphicon{
+  width: 11%;
+  height: 11%;
+   border: 1.5px solid #e56abb;
+  border-radius: 50%;
+  margin-right: 5px;
+  position: absolute;
+}
+.glyphicon-plus { 
+  font-size: 1.5rem;
+  padding-left: 0.8px;
+  position: relative;
+}
+.reviews_slider:hover {
+  border:  2px solid #137893;
+  color: #137893;
+}
+/*********************  section  book  ************************/
+.book_tour img {
+  margin-top: 95px;
+  width: 25.7rem;
+  height: 25.7rem;
+  border-radius: 50%;
+}
+.book_tour_profile {
+  font-size: 3rem;
+  margin-top: 7.4%;
+  line-height: 1.8;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+.big_sale {
+    font-size: 3.5rem;
+}
+.book {
+  margin-top: 3.5%;
+  background: #137893;
+  height: 628px;
+  color: #fff;
+}
+.book_form h3 {
+  font-family: 'M.Video-Bold';
+  padding-top: 6.5%;
+  font-size: 3.3rem;
+  margin-left: -20%;
+}
+.book_form h4 {
+    font-family: 'M.Video-Bold';
+    font-size: 2.5rem;
+    margin-left: -20%;
+}
+.book_form {
+  font-size: 1.5rem;
+}
+.book_form img {
+  width: 14%;
+  height: 14%;
+}
+form {
+  margin-top: 30px;
+}
+#email, #nam, #tel {
+  font-size: 1.8rem;
+ padding-left: 20px;
+ border: none;
+ border-style: none;
+}
+#email, #nam, #tel, .book_btn {
+  margin-bottom: 34px;
+  height: 56px;
+  width: 44.5rem;
+  border-radius: 10px;
+}
+#book_btn {
+   height: 75px;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 3.0rem;
+  font-family: 'M.Video-Bold';
+}
+/**************  ///////////////////  section  book  **************/
+/*********************  section  contacts  ************************/
+.contacts {
+  background: #f1efe6;
+}
+#map {
+
+}
+.contacts_map {
+  height: 494px;
+  /*background: url(img/background/backg_map_kharkiv.png) 100% no-repeat;*/
+  background-position:  left;
+ /* background-size: cover;*/
+}
+.contacts_contact:last-child{
+  margin-top: 6.5%;
+}
+.contacts_contact h2 {
+  font-family: 'M.Video-Bold';
+  font-size: 3.6rem;
+  color: #e56abb;
+  padding-top: 7%;
+  padding-bottom: 15%;
+
+}
+.contacts_icon_img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 3px solid #137893;
+  margin-right: 6%;
+  margin-left: 14%;
+  margin-top: -6%;
+  margin-bottom: 2%;
+  position: absolute;
+}
+.contacts_icon_img img {
+  padding-top: 38%;
+  padding-left: 2%;
+  position: relative;
+}
+#last_icon {
+   padding-left: 2%;
+  position: relative;
+}
+.contacts_text {
+  text-align: left;
+  color: #137893;
+  font-size: 2.4rem;
+margin-top: -3%;
+}
+/*.map {
+  height: 428px;
+   background: url(img/background/backg_map.png) 100% no-repeat;
+   background-position: center left;
+   margin-left: 5%;
+}*/
+/**************  ///////////////////  section  contacts  **************/
+
+
+
+.footer {
+background: #f1efe6;
+}
+.footer hr {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #137893;
+  margin: 0;
+}
+.footer_logo {
+  margin: 2% 3%;
+  margin-right: -5%;
+}
+.footer h5 {
+  color: #137893;
+  font-size: 2.4rem;
+  text-align: center;
+  padding-right: 15%;
+  margin-bottom: -15%;
+}
+.footer_social {
+  display: flex;
+  margin-top: -1%;
+  margin-bottom: 2%;
+
+/*  align-items: center;
+  align-content: center;*/
+  justify-content: center;
+
+}
+.box_social {
+      align-items: stretch;
+  align-content: space-around;
+  justify-content: space-around;
+    display: flex;
+  margin: 11% 0% 0% 0%;
+
+}
+.social {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: #137893;
+  border-radius: 8px;
+    align-items: center;
+  align-content: center;
+  justify-content: center;
+    display: flex;
+    padding-left: 4%;
+   
+}
+.op {
+  margin-left: 13%;
+}
+.footer_contact_markup {
+  color: #137893;
+  margin-top: 5.5%;
+  font-size: 1.4rem;
+}
+
+/*-----------------------------------media queries*/
+
+@media screen and (max-width: 1224px) {
+  .reviews_slider{
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+    .reviews_slider{
+    margin-left: 43%;
+  }
+
+}
+@media screen and (max-width: 1350px) {
+  .logo {
+margin-left: 8%;
+}
+.navigation_a{
+padding-left: 15%;
+}
+.austrian_alps .row h1{
+  padding-left: 18.2%;
+
+}
+.austrian_alps h2 {
+  padding-left: 15%;
+}
+button.austrian-alps{
+  margin-left: 20%;
+}
+.map {
+   background-position: left;
+   margin-left: 14%;
+}
+#map{
+  /*width: 53%;*/
+}
+.contacts_contact{
+
+}
+.contacts_icon_img {
+  margin-right: 6%;
+  margin-left: 12%;
+}
+
+.contacts_text {
+  padding-left: 40%;
+}
+.op {
+  margin-left: 22%;
+}
+}
+
+@media screen and (max-width: 1450px) {
+    .logo {
+margin-left: 0%;
+}
+.navigation_a{
+padding-left: 18%;
+}
+.austrian_alps .row h1{
+  padding-left: 22.2%;
+
+}
+.austrian_alps h2 {
+  padding-left: 19%;
+}
+button.austrian-alps{
+  margin-left: 22%;
+}
+#map{
+  /*width: 53%;*/
+}
+.contacts_contact{
+
+}
+.contacts_icon_img {
+  margin-right: 6%;
+  margin-left: 12%;
+}
+
+.contacts_text {
+  padding-left: 40%;
+}
+.op {
+  margin-left: 22%;
+}
+.slider {
+  /*margin-left: 20%;*/
+   }
+.reviews h2 {
+  padding-left: 16%;
+}
+.slider__control_left {
+  margin-left: 0.8%;
+  }
+
+.slider__control_right {
+   margin-left: 94%;
+  }
+.reviews_slider {
+  padding: 1.7% 9% 1.7% 4.5%;
+  margin: 5% 0% 15% 37%;
+}
+.circle_day {
+  margin-left: 53%;
+}
+.program_day {
+  width: 57%;
+
+}
+.title {
+  margin-left: 22%;
+}
+.text {
+  padding-left: 22%;
+}
+button.main_program {
+  /*margin-left: 15%;*/
+}
+}
+@media screen and (max-width: 1520px) {
+    .logo {
+/*margin-left: 8%;*/
+}
+.included-tour h2 {
+ /*margin-left: -13%;*/
+}
+.navigation_a{
+/*padding-left: 15%;*/
+}
+.austrian_alps .row h1{
+  padding-left: 25.2%;
+
+}
+.austrian_alps h2 {
+  padding-left: 25%;
+}
+button.austrian-alps{
+  margin-left: 25%;
+}
+.map {
+   background-position: left;
+   margin-left: 14%;
+}
+#map{
+  /*width: 60%;*/
+}
+.contacts_contact{
+  /*width: 40%;*/
+}
+.contacts_icon_img {
+  /*margin-right: 6%;*/
+  /*margin-left: 25%;*/
+}
+.contacts_text {
+  /*padding-left: 60%;*/
+}
+.slider {
+  /*margin-left: 22%;*/
+ /* width: 85%;*/
+   }
+.reviews h2 {
+  /*padding-left: 22%;*/
+}
+.slider__control_left {
+  margin-left: 0.8%;
+  }
+
+.slider__control_right {
+   margin-left: 90.2%;
+  }
+.reviews_slider {
+  /*padding: 1.7% 9% 1.7% 4.5%;*/
+  /*margin: 5% 0% 15% 37%;*/
+}
+.circle_day {
+  margin-/*l*/eft: 56%;
+}
+.program_day {
+  /*width: 60%;*/
+}
+.title {
+  margin-left: 22%;
+}
+.text {
+  padding-left: 22%;
+}
+button.main_program {
+  margin-left: 20%;
+}
+.drive_tour{
+  margin-top: 0%;
+  height: 378px;              
+  background: url(img/background/backg_with_us.png) 100% no-repeat;
+}
+.drive_tour h2{
+ padding-right: 10%;
+}
+.social_block {
+  display: flex;
+}
+.book_tour img {
+  margin-top: 95px;
+  width: 25.7rem;
+  height: 25.7rem;
+  border-radius: 50%;
+}
+.book_form h3 {
+  font-family: 'M.Video-Bold';
+  padding-top: 6.5%;
+  font-size: 3.3rem;
+  margin-left: -15%;
+}
+.book_form h4 {
+  font-family: 'M.Video-Bold';
+  font-size: 2.5rem;
+  margin-left: -15%;
+}
+.book_form {
+  font-size: 1.5rem;
+}
+.mini_img{
+  margin-left: 0%;
+}
+form {
+  margin-left: 0%;
+}
+.footer_logo {
+  margin-left: 0%;
+}
+.footer h5 {
+  color: #137893;
+  font-size: 2.4rem;
+  text-align: center;
+  /*padding-right: 15%;*/
+  /*margin-bottom: -15%;*/
+}
